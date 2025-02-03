@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Distributed File System</h3>
+            <p>Designed and developed a fault-tolerant Distributed File System (DFS) with a modular client-server architecture to ensure reliable file storage, retrieval, and high availability. 
+                The system incorporates automatic failover and replication mechanisms, allowing seamless data access even in the event of server failures. 
+                To enhance resilience, I implemented dynamic server selection and load balancing, optimizing resource utilization and system stability. 
+                Additionally, the DFS includes metadata management and a FIFO-based locking mechanism for efficient concurrency control, preventing data conflicts during simultaneous access. 
+                Rigorous testing with 50 concurrent clients using Docker demonstrated significant improvements in scalability and reduced response times, making the system well-suited for handling large-scale distributed storage operations.</p>
+                <button onclick="window.open('https://github.com/HanumaSashank/dfs-project', '_blank')">
+                    View Project
+                </button>
+            <button onclick="window.open('OS_Final.pdf', '_blank')">Open PDF</button>
+        </div>
+        
+        <div class="project-card">
+            <h3>Single Image Super Resolution using Two-Stage Neural Network Architecture</h3>
+            <p>Developed a two-stage neural network for Single Image Super-Resolution (SISR), integrating SRCNN and SRGAN models to enhance image quality beyond individual model performance. 
+                By applying nine fusion techniques, we optimized fine details, contrast, and sharpness, with the Intensity Hue Saturation (IHS) fusion achieving the best results. 
+                The model improved Peak Signal-to-Noise Ratio (PSNR) to 33.06, Structural Similarity Index (SSIM) to 0.90, and reduced Mean Squared Error (MSE) to 96.39, demonstrating superior resolution enhancement. 
+                This approach leverages the complementary strengths of CNN-based and GAN-based architectures, pushing the boundaries of deep learning-driven image super-resolution.</p>
+                <button onclick="window.open('https://github.com/HanumaSashank/SRGAN-SRCNN-FUSION', '_blank')">
+                    View Project
+                </button>
+            <button onclick="window.open('CV_PROJECT_REPORT (1).pdf', '_blank')">Open PDF</button>
+        </div>
+        
+        <div class="project-card">
+            <h3>SentimentScope</h3>
+            <p>Developed SentimentScope, an AI-driven sentiment analysis web platform designed to provide real-time sentiment insights across diverse text sources. 
+                The platform utilizes three fine-tuned NLP models: RoBERTa for tweets, DistilBERT for emotion detection, and DistilBERT for Amazon product reviews, achieving 92%, 88%, and 87% accuracy, respectively. 
+                By implementing a multi-model strategy, SentimentScope selects predictions with the highest confidence scores to enhance domain-specific sentiment analysis and minimize edge-case errors. 
+                This tool is ideal for businesses, marketers, and researchers seeking precise sentiment trends, helping them make data-driven decisions based on customer feedback and public opinion.</p>
+                <button onclick="window.open('https://github.com/HanumaSashank/SentimentScope', '_blank')">
+                    View Project
+                </button>
+            <button onclick="window.open('Team_04_Milestone_05 (2).pdf', '_blank')">Open PDF</button>
+        </div>
+        
+        <div class="project-card">
+            <h3>Epic Tale: Adaptive Genre Gaming</h3>
+            <p>Developed EpicTale, a text-based interactive game powered by OpenAI’s GPT models, delivering dynamic, genre-specific storytelling across fantasy, sci-fi, and mystery. 
+                The game adapts to player choices using one-shot prompting, ensuring a unique and immersive narrative experience. I built a React.js-based interface for seamless player interaction and a Node.js backend to handle API calls and game logic. 
+                By leveraging prompt engineering, the AI-generated text aligns with the nuances of each genre, creating a highly engaging and adaptive gameplay experience.</p>
+                <button onclick="window.open('https://github.com/HanumaSashank/EpicTale--Text-Adventure-Game', '_blank')">
+                    View Project
+                </button>
+        </div>
+        
+        <div class="project-card">
+            <h3>Anomaly Detection via Robust Graphical Lasso</h3>
+            <p>This project enhances Graphical Lasso for anomaly detection in high-dimensional data by integrating Robust Principal Component Analysis (RPCA) and Alternating Direction Method of Multipliers (ADMM). 
+                Our method efficiently isolates anomalies while preserving essential data structures.Tested on a simulated dataset, it achieved an F1-score of 0.57142, outperforming RPCA and Minimum Covariance Determinant (MCD). 
+                This scalable approach has applications in cybersecurity, fraud detection, and financial analytics, with future improvements focused on real-time processing and distributed computing..</p>
+                <button onclick="window.open('https://github.com/HanumaSashank/Anomaly-Detection-Via-Graphical-Lasso', '_blank')">
+                    View Project
+                </button>
+            <button onclick="window.open('Modern_Regression_project_report.pdf', '_blank')">Open PDF</button>
+        </div>
+
+    </section>
+</body>
+</html>

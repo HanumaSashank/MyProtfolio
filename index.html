@@ -14,14 +14,14 @@
             <h1>Hanuma Shashank Samudrala</h1>
             <ul>
                 <li><a href="#Home">home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="moreaboutme.html">About</a></li>
                 <li><a href="#Qualification">Qualification</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Work Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#Hobbies">Hobbies</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <!-- <li><a href="#skills">Skills</a></li> -->
+                <!-- <li><a href="#experience">Work Experience</a></li> -->
+                <li><a href="projects.html">Projects</a></li>
+                <!-- <li><a href="#Hobbies">Hobbies</a></li> -->
+                <li><a href="interestsawards.html">Interests and Awards</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -34,66 +34,13 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
-        <h2>More About Me</h2>
-        <p>I am in my final semester of a Master's in Computer Science at UMBC, passionate about AI/ML, Data Engineering, and Application Development. 
-            After earning my Bachelor’s in Computer Science from SASTRA University, India (2021), I worked as a Full Stack Engineering Analyst at Accenture, 
-            where I built data pipelines using Azure Data Factory, developed backend APIs with Python FastAPI, and led the creation of a Supply Chain Network Digital Twin using Palantir Software. 
-            This experience strengthened my expertise in data engineering, web applications, and dashboard development, exposing me to large-scale real-world projects. 
-            My growing curiosity for advanced AI and scalable data systems led me to pursue my master’s, where I have deepened my technical expertise and worked on innovative, research-driven projects. 
-            This journey has fueled my drive to develop intelligent, data-driven solutions that create real-world impact.
-
-        </p>
-        <a href="SHS_Resume_78" download class="btn">Download Resume</a>
-    </section>
+    
 
     <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Distributed File System</h3>
-            <p>Designed and developed a fault-tolerant Distributed File System (DFS) with a modular client-server architecture to ensure reliable file storage, retrieval, and high availability. 
-                The system incorporates automatic failover and replication mechanisms, allowing seamless data access even in the event of server failures. 
-                To enhance resilience, I implemented dynamic server selection and load balancing, optimizing resource utilization and system stability. 
-                Additionally, the DFS includes metadata management and a FIFO-based locking mechanism for efficient concurrency control, preventing data conflicts during simultaneous access. 
-                Rigorous testing with 50 concurrent clients using Docker demonstrated significant improvements in scalability and reduced response times, making the system well-suited for handling large-scale distributed storage operations.</p>
-            <a href="https://github.com/HanumaSashank/dfs-project" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-            <h3>Single Image Super Resolution using Two-Stage Neural Network Architecture</h3>
-            <p>Developed a two-stage neural network for Single Image Super-Resolution (SISR), integrating SRCNN and SRGAN models to enhance image quality beyond individual model performance. 
-                By applying nine fusion techniques, we optimized fine details, contrast, and sharpness, with the Intensity Hue Saturation (IHS) fusion achieving the best results. 
-                The model improved Peak Signal-to-Noise Ratio (PSNR) to 33.06, Structural Similarity Index (SSIM) to 0.90, and reduced Mean Squared Error (MSE) to 96.39, demonstrating superior resolution enhancement. 
-                This approach leverages the complementary strengths of CNN-based and GAN-based architectures, pushing the boundaries of deep learning-driven image super-resolution.</p>
-            <a href="https://github.com/HanumaSashank/SRGAN-SRCNN-FUSION" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-            <h3>SentimentScope</h3>
-            <p>Developed SentimentScope, an AI-driven sentiment analysis web platform designed to provide real-time sentiment insights across diverse text sources. 
-                The platform utilizes three fine-tuned NLP models: RoBERTa for tweets, DistilBERT for emotion detection, and DistilBERT for Amazon product reviews, achieving 92%, 88%, and 87% accuracy, respectively. 
-                By implementing a multi-model strategy, SentimentScope selects predictions with the highest confidence scores to enhance domain-specific sentiment analysis and minimize edge-case errors. 
-                This tool is ideal for businesses, marketers, and researchers seeking precise sentiment trends, helping them make data-driven decisions based on customer feedback and public opinion.</p>
-            <a href="https://github.com/HanumaSashank/SentimentScope" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-            <h3>Epic Tale: Adaptive Genre Gaming</h3>
-            <p>Developed EpicTale, a text-based interactive game powered by OpenAI’s GPT models, delivering dynamic, genre-specific storytelling across fantasy, sci-fi, and mystery. 
-                The game adapts to player choices using one-shot prompting, ensuring a unique and immersive narrative experience. I built a React.js-based interface for seamless player interaction and a Node.js backend to handle API calls and game logic. 
-                By leveraging prompt engineering, the AI-generated text aligns with the nuances of each genre, creating a highly engaging and adaptive gameplay experience.</p>
-            <a href="https://github.com/HanumaSashank/EpicTale--Text-Adventure-Game" target="_blank">View Project</a>
-        </div>
-        <div class="project-card">
-            <h3>Epic Tale: Adaptive Genre Gaming</h3>
-            <p>This project enhances Graphical Lasso for anomaly detection in high-dimensional data by integrating Robust Principal Component Analysis (RPCA) and Alternating Direction Method of Multipliers (ADMM). 
-                Our method efficiently isolates anomalies while preserving essential data structures.Tested on a simulated dataset, it achieved an F1-score of 0.57142, outperforming RPCA and Minimum Covariance Determinant (MCD). 
-                This scalable approach has applications in cybersecurity, fraud detection, and financial analytics, with future improvements focused on real-time processing and distributed computing..</p>
-            <a href="https://github.com/HanumaSashank/Anomaly-Detection-Via-Graphical-Lasso" target="_blank">View Project</a>
-        </div>
-
-    </section>
+    
 
     <!-- Experience Section -->
-    <section id="experience">
+    <!-- <section id="experience">
         <h2>Experience</h2>
         <div class="experience-card">
             <h3>Teaching Assistant | UMBC</h3>
@@ -107,42 +54,16 @@
             <h3>Full Stack Engineering Analyst | Accenture</h3>
             <p>Developed backend APIs, worked with MS Azure, and PostgreSQL.</p>
         </div>
-    </section>
+    </section> -->
 
     <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python, C++, JavaScript</li>
-            <li>FastAPI, Flask, ReactJS</li>
-            <li>PostgreSQL, MySQL, MongoDB</li>
-            <li>PyTorch, OpenCV, Scikit-Learn</li>
-            <li>Azure, Docker</li>
-        </ul>
-    </section>
+    
 
     <!-- Achievements Section -->
-    <section id="achievements">
-        <h2>Achievements</h2>
-        <ul>
-            <li>2nd Place in Accenture’s Global Hackathon</li>
-            <li>TA position at UMBC for Software Engineering I</li>
-        </ul>
-    </section>
+    
 
     <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:hanumas1@umbc.edu">hanumas1@umbc.edu</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">linkedin.com/in/yourlinkedin</a></p>
-        <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+   
 
     <!-- Footer -->
     <footer>
